@@ -1,5 +1,10 @@
 var NguoiDungService = new nguoiDungService();
 getListUser();
+
+function themNguoiDungtest(){
+    console.log("thêm người dùng");
+}
+
 function getListUser(){
     NguoiDungService.layDanhSachNguoiDung()
     // để thực hiện promise, ghi ở chỗ này để cấu trúc đồng bộ.
