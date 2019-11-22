@@ -1,5 +1,10 @@
 var NguoiDungService = new nguoiDungService();
 getListUser();
+
+function themNguoiDungTest(){
+    console.log("thêm người dùng 2 lần 2");
+}
+
 function getListUser(){
     NguoiDungService.layDanhSachNguoiDung()
     // để thực hiện promise, ghi ở chỗ này để cấu trúc đồng bộ.
