@@ -1,8 +1,8 @@
 var NguoiDungService = new nguoiDungService();
 getListUser();
 
-function themNguoiDungtest(){
-    console.log("thêm người dùng");
+function themNguoiDungTest(){
+    console.log("thêm người dùng 2 lần 2");
 }
 
 function getListUser(){
